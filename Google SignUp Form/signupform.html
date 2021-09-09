@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Google Sign Up Form</title>
+</head>
+<style>
+    * {
+        padding : 0;
+        margin : 0;
+    }
+
+    body {
+        height : 100vh;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+<body>
+    <div class="container">
+     <div class="header">Google Sign Up Form</div>
+        <input type="text" name="" id="fullname" placeholder="fullname" required>
+        <input type="text" name="" id="username" placeholder="username" required>
+        <input type="password" name="" id="password" placeholder="password" pattern=".{5, 10}" required title="Enter between 5 to 10 characters">
+        <input type="password" name="" id="confirm" placeholder="confirm" pattern=".{5, 10}" required title="Enter between 5 to 10 characters">
+        <input type="text" name="" id="email" placeholder="email" required>
+        <input type="number" name="" id="phone number" placeholder="+234" required>
+        <input type="number" name="" id="age" placeholder="age" pattern=".{18, 100}" required>
+        <input type="text" name="" id="gender" placeholder="gender" required>
+        <button type="button" id="Sign up">Sign up</button>
+    </div>
+
+
+</body>
+<script>
+    let pass = document.getElementById("password");
+    let c_pass = document.getElementById("confirm password");
+    let age_exact = document.getElementById("age");
+    let btn = document.getElementById("Sign up");
+    let confirm_password = "confirm";
+    
+    
+    btn.addEventListener("click", checkFormat);
+    
+    function checkFormat(){
+        let password = pass.value;
+        let confirm = c_pass.value;
+        let age = age_exact.value;
+       
+
+        if (confirm == confirm_password){
+            alert("Sign up Successful :)");
+        }
+        else{
+            alert("Wrong :(")
+        }
+        
+    }
+    x
+    
+</script>
+</html>
