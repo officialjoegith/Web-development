@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Outstagram</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="www.instagram.com" class="logo"> <i>Cynthiagram</i></a>
+        <div class="search_box">
+            <input type="search" name="" id="search_box" placeholder="Search">
+        </div>
+        <div class="nav_link">
+            <img width="25px" height="20px" src="./home.png">
+            <img width="25px" height="20px" src="./compass.png">
+            <img width="25px" height="20px" src="./heart.png">
+            <img width="25px" height="20px" src="./message.png">
+            <img width="25px" height="20px" src="./elipsis.png">
+        </div>
+    </div>
+    <div class="page_body">
+        <div class="feeds">
+            <div class="stories">
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text">@official_leky_d</div>
+                </div>
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text">@nairamaly</div>
+                </div>
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text"><b>@davido_</b></div>
+                </div>
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text"><b>@buhari</b></div>
+                </div>
+                <div class="story">
+                    <div class="story_image"></div>
+                    <div class="story_text">@yemialade</div>
+                </div>
+            </div>
+            <div class="post_container">
+                <div class="post">
+                    <div class="top">
+                        <div class="dp">
+                            <img width="25px" height="20px" src="./profile.png">
+                            <div class="profile_name"><i>joseph</i></div> 
+                        </div>
+                        <img width="25px" height="20px" src="./elipsis.png">
+                    </div>
+                    <img src="download (1).jpg" class="post_image" alt="" srcset="" width="100%">
+                    <div class="reactions">
+                        <div class="reaction_panel">
+                            <div class="lcs">
+                                <img width="25px" height="20px" src="./heart.png">
+                                <img width="25px" height="20px" src="./comment.png">
+                                <img width="25px" height="20px" src="./paper plane.png">
+                            </div>
+                                <img width="25px" height="20px" src="./bookmark.png">
+                        </div>
+                        <div class="post_texts">
+                            <div class="likes"><b>823,650 likes</b></div>
+                            <div class="message">No limit</div>
+                            <div class="time">8 sec ago</div>
+                        </div>
+                        <div class="comment">
+                            <img width="25px" height="20px" src="./smiley 2.png">
+                            <input type="text" id="comment_text" placeholder="Add a comment"> 
+                            <button class="post_button">posts</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            
+        <div class="suggestions">
+            <div class="profile">
+                <div class="dummy_container">
+                    <img width="25px" height="20px" src="./profile.png">
+                    <div class="profile_id">
+                        <div class="username"><b>joegith</b></div>
+                        <div class="profile_name">officialjoegith</div>
+                    </div>
+                </div>
+                <button class="post_button"><b>Switch</b></button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <button class="floating_create_post">+</button>
+    <div class="add_post_container">
+       <form action=""class="add-form">
+            <input type="text" class="post_username" placeholder="username">
+            <label for="post_media" class="post_media_label">select_media</label>
+            <input type="file" id="post_media" hidden>
+            <textarea id="post_message" placeholder="message" width="100%"></textarea>
+            <button id="post-post" class="post_button">Post</button>
+            <button id="post-Back" class="post_button">Back</button>
+       </form>
+    </div>
+</body>
+<script src="instag.js"></script>
+</html>

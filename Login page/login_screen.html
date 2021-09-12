@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Login Screen</title>
+</head>
+<style>
+    * {
+        padding : 0;
+        margin : 0;
+    }
+
+    body {
+        height : 100vh;
+        display : flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+<body>
+    <div class="container">
+     <div class="header">My Login Screen</div>
+        <input type="text" name="" id="username" placeholder="username">
+        <input type="password" name="" id="password" placeholder="password">
+        <button type="button" id="login">Login</button>
+    </div>
+</body>
+<script>
+    on
+    let u_name = document.getElementById("username");
+    let pass = document.getElementById("password");
+    let button = document.getElementById("login");
+
+    let correct_username = "username";
+    let correct_password = "password";
+    
+    button.addEventListener("click", checkInput);
+    
+    function checkInput(){
+        //alert("Hello! My friend");
+        //console.log("Hello Console");
+        let username = u_name.value;
+        let password = pass.value;
+
+        if (username == correct_username && password == correct_password){
+            alert("Login Successful :)");
+            moveTo 
+        }
+        else{
+            alert("Wrong Details :(")
+        }
+        //window.alert(username + "\n" + password);
+    }
+    
+    //alert(u_name.value);
+    //let message = prompt('Enter a message');
+    //window.alert('Click Ok');
+</script>
+</html>

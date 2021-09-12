@@ -1,0 +1,22 @@
+{
+    username: "rofih",
+    media: "image/super-mario-wallpaper-windows-wallpaper-ytqatuieycclzqbp.jpg",
+    likes: 123564,
+    message: "lol! javascript is superb: ",
+    time: "2 HOURS AGO"
+},
+{
+    username: "kayode",
+    media: "image/super-mario-wallpaper-windows-wallpaper-ytqatuieycclzqbp.jpg",
+    likes: 128564,
+    message: "lol! javascript is superb: ",
+    time: "5 MINUTES AGO"
+},
+{
+    username: "joseph",
+    media: "image/super-mario-wallpaper-windows-wallpaper-ytqatuieycclzqbp.jpg",
+    likes: 125564,
+    message: "lol! javascript is superb: ",
+    time: "11 HOURS AGO"
+}
+]

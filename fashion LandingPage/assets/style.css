@@ -1,0 +1,36 @@
+* {
+    padding: 3px;
+    margin: auto;
+}
+.heading {
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: aliceblue;
+}
+body {
+    background-color: #28434a;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    color: antiquewhite;
+}
+object {
+    padding: 5px;
+    float: center;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: auto;
+    top: 200px;
+    fill: white;
+}
+.link {
+    margin-top: 100px;
+}
+img {
+    margin-top: -100px;
+}
